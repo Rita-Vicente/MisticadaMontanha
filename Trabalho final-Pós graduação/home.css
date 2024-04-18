@@ -158,6 +158,58 @@ body, h2, h3, h4, p {
     height: 500px;
     min-height: 400px
   }
+.gallery-title {
+  font-size: 24px; 
+  color: #ffffff; 
+  margin-bottom: 50px; 
+  text-align: left;
+  margin-left: 30px;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 600px; /* Ou a largura que você quer para o seu carrossel */
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  display: block; /* Remove espaço abaixo da imagem */
+  transition: 0.5s ease; /* Efeito de transição suave */
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px; /* Centraliza verticalmente as setas */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; /* Arredonda os cantos das setas */
+  user-select: none; /* Impede que o texto da seta seja selecionável */
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
  
 
