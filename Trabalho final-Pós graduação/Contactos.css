@@ -99,7 +99,7 @@ body, h2, h3, h4, p {
     text-align: center;
     margin: 0 auto; 
     box-sizing: border-box;
-    width: 180%;
+    width: 200%;
     height: 90px;
   }
 
@@ -123,6 +123,7 @@ body, h2, h3, h4, p {
     color: #ffa500; 
     text-align: left;
     margin-top: 350px;
+    padding-top:20px;
   }
   
   .contact-section p {
