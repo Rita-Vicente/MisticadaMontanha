@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mística da Montanha</title>
+  <link rel="stylesheet" href="Trilhos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+</head>
+<body>
+
+<header class="video-header">
+  <video autoplay muted loop> 
+    <source src="Fotografias/montanha.mp4.mp4" type="video/mp4">
+  </video>
+  
+  <div class="header-content">
+    <div class="logo-container">
+      <img src="Fotografias/Logotipo retro grátis montanha aventuras  (3).png" alt="Logotipo da empresa" class="Logotipo"/>
+    </div>
+    
+    <div class="menu">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="SobreNós.html">Sobre Nós</a></li>
+        <li><a href="Trilhos.html">Trilhos</a></li>
+        <li><a href="Contactos.html">Contactos</a></li>
+        <li><a href="EventoseNoticias.html">Eventos e Noticias</a></li>
+      </ul>
+    </div>
+    
+    <div class="search-bar">
+      <input type="search" placeholder="Pesquisar...">
+      <button type="submit">🔍</button>
+    </div>
+    
+    <a href="/entrar" class="login-button">Criar conta <span class="text-white">ou entrar</span></a>
+  </div>
+</header>
+
+<h2 class="TituloPrincipal">Descubra o mapa interativo sobre os trilhos</h2>
+
+<div class="responsive-map">
+<iframe 
+id="map-iframe"
+class="full-width-map"
+src="https://www.google.com/maps/d/u/0/embed?mid=16_zjvkgtuRwsvZoCtxCG_VWEoCs2MQA&ehbc=2E312F&noprof=1" 
+frameborder="0"
+style="border:0;"
+allowfullscreen=""
+aria-hidden="false"
+tabindex="0">
+</iframe>
+</div>
+
+<div class="feedback-area" style="background-image: url('Fotografias/DiscoverFaial_TrailRunning.jpg');">
+    <h3>Comente apenas dizendo o estado em que encontrou o trilho e avalie</h3>
+    <form action="/submit-comment" method="post">
+      <textarea name="comment" placeholder="Deixe seu comentário aqui"></textarea>
+      <button type="submit">Adicione comentário</button>
+    </form>
+    <div class="star-rating">
+        <input id="star-5" type="radio" name="rating" value="5" />
+        <label for="star-5" title="5 stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </label>
+        <input id="star-4" type="radio" name="rating" value="4" />
+        <label for="star-4" title="4 stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </label>
+        <input id="star-3" type="radio" name="rating" value="3" />
+        <label for="star-3" title="3 stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </label>
+        <input id="star-2" type="radio" name="rating" value="2" />
+        <label for="star-2" title="2 stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </label>
+        <input id="star-1" type="radio" name="rating" value="1" />
+        <label for="star-1" title="1 star">
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </label>
+      </div>
+      
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      <div class="newsletter">
+        <p>Subscreva a nossa newsletter</p>
+        <form action="#">
+          <input type="email" placeholder="Email">
+          <button type="submit">Subscreva</button>
+        </form>
+      </div>
+      <div class="privacy">
+        <a href="#privacy">Privacidade e cookies</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2024 | Mística da Montanha.pt</p>
+    </div>
+  </footer>
+  
+  
+
+
+</body>
+</html>
