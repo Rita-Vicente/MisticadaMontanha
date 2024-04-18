@@ -211,6 +211,35 @@ body, h2, h3, h4, p {
   background-color: rgba(0,0,0,0.8);
 }
 
+
+.chat-container {
+  max-width: 300px;
+  background-color: #f0f0f0; /* Cor de fundo do chat */
+  border-radius: 20px; /* Bordas arredondadas do chat */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito elevado */
+  font-family: Arial, sans-serif; /* Tipo de fonte do chat */
+  margin-left: auto;
+}
+
+.chat-bubble {
+  background-color: #ffffff; /* Cor de fundo das bolhas */
+  border-radius: 20px; /* Bordas arredondadas das bolhas */
+  padding: 10px 20px;
+  margin: 8px 0; /* Espaço entre as bolhas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para as bolhas */
+}
+
+.chat-icon {
+  display: flex;
+  justify-content: center; /* Centraliza o ícone */
+  margin-top: 20px;
+}
+
+.chat-icon img {
+  width: 50px; /* Tamanho do ícone */
+  height: auto;
+}
  
 
   
